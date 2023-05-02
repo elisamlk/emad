@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Axtra HTML5 Template" />
 
-    <title>Contact</title>
+    <title>Portfolio - Axtra</title>
 
     <!-- Fav Icon -->
     <link rel="icon" type="image/x-icon" href="../images/Emlk.png" />
@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="../css/progressbar.css" />
     <link rel="stylesheet" href="../css/meanmenu.min.css" />
     <link rel="stylesheet" href="../css/master.css" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
 
     <!--Fontawesome Icons-->
     <script
@@ -34,7 +35,9 @@
     ></script>
   </head>
 
-  <body>
+  <body class="dark">
+    <!-- Cursor Animation -->
+
     <!-- Preloader -->
     <div class="preloader">
       <div class="loading">
@@ -61,22 +64,22 @@
     <header class="header__area">
       <div class="header__inner">
         <div class="header__logo">
-          <a href="../index.html">
+          <a href="index.html">
             <img
               class="logo-primary"
-              src="../images/Emlk (100 × 40 px).png"
+              src="assets/imgs/logo/site-logo-white.png"
               alt="Site Logo"
             />
             <img
               class="logo-secondary"
-              src="../images/Emlk (100 × 40 px).png"
-              alt="Mobile logo"
+              src="assets/imgs/logo/site-logo-white-2.png"
+              alt="Moibile Logo"
             />
           </a>
         </div>
         <div class="header__nav-icon">
           <button id="open_offcanvas">
-            <img src="../images/menu-white.png" alt="Menubar Icon" />
+            <img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon" />
           </button>
         </div>
         <div class="header__support">
@@ -91,9 +94,9 @@
       <div class="offcanvas__body">
         <div class="offcanvas__left">
           <div class="offcanvas__logo">
-            <a href="../index.html"
+            <a href="index.html"
               ><img
-                src="../images/Emlk (100 × 40 px) - copie.png"
+                src="assets/imgs/logo/site-logo-white-2.png"
                 alt="Offcanvas Logo"
             /></a>
           </div>
@@ -374,105 +377,172 @@
     <div id="smooth-wrapper">
       <div id="smooth-content">
         <main>
-          <!-- Contact area start -->
-          <section class="contact__area-6">
-            <div class="container g-0 line pt-120 pb-110">
+          <!-- Portfolio area start -->
+          <section class="portfolio__area-6">
+            <div class="container line pt-100 pb-140">
               <span class="line-3"></span>
-              <div class="row">
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                  <div class="sec-title-wrapper">
-                    <h2 class="sec-title-2 animation__char_come">
-                      Let’s get in touch
-                    </h2>
+              <div class="zi-9">
+                <div class="row">
+                  <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-6">
+                    <div class="sec-title-wrapper portfolio__title-wrap-6">
+                      <div class="">
+                        <h2 class="sec-sub-title animation__char_come">
+                          Featured
+                        </h2>
+                        <h3 class="sec-title animation__char_come_long">
+                          Work
+                        </h3>
+                        <p>
+                          View the full case study of our recent featured and
+                          awesome works that we created for our clients.
+                        </p>
+                      </div>
+                      <div class="portfolio__pagination-6">
+                        <span class="portfolio__current">01</span> / 0<span
+                          class="portfolio__total"
+                        ></span>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                  <div class="contact__text">
-                    <p>
-                      Great! We're excited to hear from you and let's start
-                      something special togerter. call us for any inquery.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="row contact__btm">
-                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-                  <div class="contact__info">
-                    <h3 class="sub-title-anim-top animation__word_come">
-                      Don't be afraid man ! <br />say hello
-                    </h3>
-                    <ul>
-                      <li>
-                        <a href="tel:+(2)578365379">+(2) 578 - 365 - 379</a>
-                      </li>
-                      <li>
-                        <a href="mailto:hello@example.com">hello@example.com</a>
-                      </li>
-                      <li>
-                        <span
-                          >230 Norman Street New York, <br />
-                          QC (USA) H8R 1A1</span
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
-                  <div class="contact__form">
-                    <form action="assets/mail.php" method="POST">
-                      <div class="row g-3">
-                        <div class="col-xxl-6 col-xl-6 col-12">
-                          <input type="text" name="name" placeholder="Name *" />
+
+                  <div class="col-xxl-8 col-xl-7 col-lg-7 col-md-6">
+                    <div class="portfolio__wrapper-6">
+                      <div class="portfolio__list-6">
+                        <div class="portfolio__item-6" data-portfitem="1">
+                          <a href="portfolio-details.html">
+                            <img
+                              src="../images/portfolio1.jpg"
+                              alt="Portfolio Image"
+                              data-speed="0.4"
+                            />
+                            <div class="portfolio__content-6">
+                              <h4 class="portfolio__title-6">Lionpro Agency</h4>
+                              <h5 class="portfolio__date">02 May 2021</h5>
+                            </div>
+                          </a>
                         </div>
-                        <div class="col-xxl-6 col-xl-6 col-12">
-                          <input
-                            type="email"
-                            name="email"
-                            placeholder="Email *"
-                          />
+
+                        <div class="portfolio__item-6" data-portfitem="2">
+                          <a href="portfolio-details.html">
+                            <img
+                              src="../images/portfolio1.jpg"
+                              alt="Portfolio Image"
+                              data-speed="0.4"
+                            />
+                            <div class="portfolio__content-6">
+                              <h4 class="portfolio__title-6">Lionpro Agency</h4>
+                              <h5 class="portfolio__date">02 May 2021</h5>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="portfolio__item-6" data-portfitem="3">
+                          <a href="portfolio-details.html">
+                            <img
+                              src="../images/portfolio1.jpg"
+                              alt="Portfolio Image"
+                              data-speed="0.4"
+                            />
+                            <div class="portfolio__content-6">
+                              <h4 class="portfolio__title-6">Lionpro Agency</h4>
+                              <h5 class="portfolio__date">02 May 2021</h5>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="portfolio__item-6" data-portfitem="4">
+                          <a href="portfolio-details.html">
+                            <img
+                              src="../images/portfolio1.jpg"
+                              alt="Portfolio Image"
+                              data-speed="0.4"
+                            />
+                            <div class="portfolio__content-6">
+                              <h4 class="portfolio__title-6">Lionpro Agency</h4>
+                              <h5 class="portfolio__date">02 May 2021</h5>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="portfolio__item-6" data-portfitem="5">
+                          <a href="portfolio-details.html">
+                            <img
+                              src="../images/portfolio1.jpg"
+                              alt="Portfolio Image"
+                              data-speed="0.4"
+                            />
+                            <div class="portfolio__content-6">
+                              <h4 class="portfolio__title-6">Lionpro Agency</h4>
+                              <h5 class="portfolio__date">02 May 2021</h5>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="portfolio__item-6" data-portfitem="6">
+                          <a href="portfolio-details.html">
+                            <img
+                              src="../images/portfolio1.jpg"
+                              alt="Portfolio Image"
+                              data-speed="0.4"
+                            />
+                            <div class="portfolio__content-6">
+                              <h4 class="portfolio__title-6">Lionpro Agency</h4>
+                              <h5 class="portfolio__date">02 May 2021</h5>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="portfolio__item-6" data-portfitem="7">
+                          <a href="portfolio-details.html">
+                            <img
+                              src="../images/portfolio1.jpg"
+                              alt="Portfolio Image"
+                              data-speed="0.4"
+                            />
+                            <div class="portfolio__content-6">
+                              <h4 class="portfolio__title-6">Lionpro Agency</h4>
+                              <h5 class="portfolio__date">02 May 2021</h5>
+                            </div>
+                          </a>
                         </div>
                       </div>
-                      <div class="row g-3">
-                        <div class="col-xxl-6 col-xl-6 col-12">
-                          <input type="tel" name="phone" placeholder="Phone" />
-                        </div>
-                        <div class="col-xxl-6 col-xl-6 col-12">
-                          <input
-                            type="text"
-                            name="subject"
-                            placeholder="Subject *"
-                          />
-                        </div>
-                      </div>
-                      <div class="row g-3">
-                        <div class="col-12">
-                          <textarea
-                            name="message"
-                            placeholder="Messages *"
-                          ></textarea>
-                        </div>
-                      </div>
-                      <div class="row g-3">
-                        <div class="col-12">
-                          <div class="btn_wrapper">
-                            <button class="wc-btn-primary btn-hover btn-item">
-                              <span></span> Send <br />Messages
-                              <i class="fa-solid fa-arrow-right"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-          <!-- Contact area end -->
+          <!-- Portfolio area end -->
+
+          <!-- CTA area start -->
+          <section class="cta__area">
+            <div class="container line pb-110">
+              <div class="line-3"></div>
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="cta__content">
+                    <p class="cta__sub-title">Work with us</p>
+                    <h2 class="cta__title title-anim">
+                      We would love to hear more about your project
+                    </h2>
+                    <div class="btn_wrapper">
+                      <a
+                        href="contact.html"
+                        class="wc-btn-primary btn-hover btn-item"
+                        ><span></span>Let’s talk us
+                        <i class="fa-solid fa-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- CTA area end -->
         </main>
 
         <!-- Footer area start -->
-        <footer class="footer__area" data-scroll-section>
+        <footer class="footer__area">
           <div class="footer__top">
             <div class="container footer-line"></div>
             <img
@@ -490,7 +560,7 @@
                     <div class="footer__widget">
                       <img
                         class="footer__logo"
-                        src="../Emlk (100 × 40 px) - copie.png"
+                        src="assets/imgs/logo/footer-logo-white.png"
                         alt="Footer Logo"
                       />
                       <p>
